@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color:#EEEFF1;
+}
+html{
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+.btn {
+    font-size: 15px;
+    line-height: 1;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    color: white;
+    background-color:#1B1B1D;
+    border-radius: 63px;
+    cursor: pointer;
+}
+
+.header{
+    height: 110px;
+}
+.container{ 
+    max-width: 1200px;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+.logo {
+    margin-right: auto;
+}
+.nav-list {
+    display: flex;
+    margin: auto;
+}
+.nav-item:not(:last-child){
+    margin-right: 50px;
+}
+.header-btn{
+    margin-left: 60px;
+}
+.img-item{
+    padding: 24px 18px 14px 18px;
+    background-color: white;
+    border-radius: 40px;
+    align-items: center;
+    flex-shrink: 0;
+}
+.basket-btn{
+    align-items: center;
+    justify-content: center;
+}
+.section-hero-heading{
+    color: #1B1B1D;
+    font-size: 104px;
+    font-weight: 600;
+    line-height: 140px;
+}
+.text-center {
+    text-align: center;
+}
+/* Hero */
+.section-hero {
+    background: url('images/alowishus-coffee\ 5.png') right center no-repeat #EEEFF1;
+}
+.hero-container{
+    padding-top: 120px;
+    padding-bottom: 130px;
+}
+.hero-content {
+    max-width: 50%;
+}
+.section-hero-heading {
+    margin-bottom: 20px;
+}
+.section-hero-description {
+    margin-bottom: 30px;
+}
+section-hero-heading{
+    margin-bottom: 20px;
+    background: url('images/image\ 3.png') right bott no-repeat  #EEEFF1;
+}
+.section-hero-description {
+    margin-bottom: 30px;
+}
+.section-hero-btn-description {
+    margin-top: 10px;
+}
+/* Explore Our Alowishus */
+.section-do{
+    padding-top: 140px;
+    padding-bottom: 100px;
+}
+.section-description{
+    margin-top: 25px;
+}
+.section-do-list {
+    margin-top: 50px;
+    display: flex;
+}
+.section-do-item{
+    width: 393px;
+    height: 540px;
+    flex: 1 1 25%;
+    background-color: white;
+    outline: 3px solid white;
+    border-radius: 23px;
+}
+.section-do-item:not(:last-child) {
+    margin-right: 30px;
+}

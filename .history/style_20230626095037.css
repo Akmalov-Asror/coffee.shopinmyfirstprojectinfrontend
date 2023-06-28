@@ -1,0 +1,528 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color:#EEEFF1;
+}
+html{
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+.btn {
+    font-size: 15px;
+    line-height: 1;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    color: white;
+    background-color:#1B1B1D;
+    border-radius: 63px;
+    cursor: pointer;
+}
+
+.header{
+    height: 110px;
+}
+.container{ 
+    max-width: 1200px;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+.logo {
+    margin-right: auto;
+}
+.nav-list {
+    display: flex;
+    margin: auto;
+}
+.nav-item:not(:last-child){
+    margin-right: 50px;
+}
+.header-btn{
+    margin-left: 60px;
+}
+.img-item{
+    padding: 24px 18px 14px 18px;
+    background-color: white;
+    border-radius: 40px;
+    align-items: center;
+    flex-shrink: 0;
+}
+.nav-link{
+    color:#1B1B1D;
+}
+.basket-btn{
+    align-items: center;
+    justify-content: center;
+}
+.section-hero-heading{
+    color: #1B1B1D;
+    font-size: 104px;
+    font-weight: 600;
+    line-height: 140px;
+}
+.text-center {
+    text-align: center;
+}
+/* Hero */
+.section-hero {
+    background: url('images/alowishus-coffee\ 5.png') right center no-repeat #EEEFF1;
+    margin-right: 100px;
+}
+.section-do{
+    padding-top: 140px;
+    padding-bottom: 100px;
+    border-radius: 1px solid #e4e4e4;
+}   
+.hero-container{
+    padding-top: 120px;
+    padding-bottom: 130px;
+}
+.hero-content {
+    max-width: 50%;
+}
+.section-hero-heading {
+    font-family: Jost   ;
+    margin-bottom: 20px;
+}
+.section-hero-description {
+    margin-bottom: 30px;
+}
+.container hero-container{
+    background: url('images/image\ 3.png') right bottom no-repeat  #EEEFF1;
+}
+.section-description{
+    color: #64646A;
+    text-align: center;
+    font-size: 24px;
+}
+
+.section-heading{
+    line-height: 70px;
+    font-size: 64px;
+}
+.section-hero-description {
+    margin-bottom: 30px;
+    display: flex;
+    width: 530px;
+    font-size: 24px;
+    flex-direction: column;
+}
+.section-hero-btn1-description{
+    color: #1B1B1D;
+    font-size: 18px;
+}
+.section-hero-btn-description {
+    margin-top: 10px;
+    font-size: 15px;
+    line-height: 1;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    color: white;
+    background-color:#1B1B1D;
+    border-radius: 63px;
+    cursor: pointer;
+    margin-right: 30px;
+
+}
+/* Explore Our Alowishus */
+.section-do{
+    padding-top: 140px;
+    padding-bottom: 100px;
+}
+.section-description{
+    margin-top: 25px;
+}
+.section-do-list {
+    margin-top: 50px;
+    display: flex;
+}
+.section-do-item{
+    width: 393px;
+    height: 540px;
+    flex: 1 1 25%;
+    background-color: white;
+    outline: 3px solid white;
+    border-radius: 23px;
+
+}
+.section-do-item-1{
+    width: 393px;
+    height: 471px;
+    flex: 1 1 25%;
+    background-color: white;
+    outline: 3px solid white;
+    border-radius: 23px;
+}
+.section-do-list-1{
+    margin-top: 30px;
+    display: flex;
+}
+.section-do-item-1:not(:last-child) {
+    margin-right: 30px;
+}
+
+.section-do-item:not(:last-child) {
+    margin-right: 30px;
+
+}
+.section-do-item-description {
+    text-align: center;
+    flex-direction: column;
+    color: #64646A;
+    font-size: 24px;
+    font-family: Jost;
+}
+.section-do-item-heading{
+    color: #1B1B1D;
+    font-size: 36px;
+    font-family: Jost;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+.section-do-item-img{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 130px;
+}
+.section-do-item-btn{
+    text-align: center;
+    margin-left: 80px;
+    font-size: 15px;
+    line-height: 1;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    color: white;
+    background-color:#1B1B1D;
+    border-radius: 126px;
+}
+.section-do-item-btn-plus {
+    text-align: center;
+    margin-left: 100px;
+    font-size: 15px;
+    line-height: 1;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    color: white;
+    background-color:#1B1B1D;
+    border-radius: 126px;
+}
+
+/* section - 4 */
+.section-order{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.container-desc{
+    display:flex;
+    justify-content: center;
+}
+.section-order-heading {
+    margin-left: 300px;
+    color: #1B1B1D;
+    font-weight: 600;
+    font-size: 64px;
+    font-family: Jost;
+}   
+.container-order-description{
+    color: #64646A;
+    font-size: 24px;
+    font-family: Jost;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    width: 604px;
+    margin-left: 310px;
+}
+
+.section-order-btn{
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 300px;
+    font-size: 15px;
+    line-height: 1;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    color: white;
+    background-color:#1B1B1D;
+    border-radius: 126px;
+    
+}
+/* section - 5*/
+.section-selling{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.container-celling{
+    display:flex;
+    justify-content: center;
+}
+.section-order-head {
+    margin-left: 60px;
+    color: #1B1B1D;
+    font-weight: 600;
+    font-size: 64px;
+    font-family: Jost;
+}
+.section-do-item-description-1 {
+    display: flex;
+    flex-direction: column;
+    color: #64646A;
+    font-size: 20px;
+    font-family: Jost;
+    line-height: 28px;
+    margin-left: 30px;
+}
+.section-hero-btn-buy{
+    font-size: 15px;
+    line-height: 1;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    color: white;
+    background-color:#1B1B1D;
+    border-radius: 63px;
+    cursor: pointer;
+    margin-left: 63px;
+}
+
+.section-hero-btn1-buy{
+    color: #1B1B1D;
+    font-size: 30px;
+    font-family: Jost;
+    font-weight: 500;
+    line-height: 28px;
+    margin-left: 30px;
+
+}
+/*  */
+.new-item{
+    margin-top: 100px;
+}
+.section-marketplace{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.container-marketplace {
+    display: flex;
+    justify-content: center;
+}
+.text-decaration-marketplace {
+    color: #1B1B1D;
+    font-size: 64px;
+    font-family: Jost;
+    font-weight: 800;
+    line-height: 70px;
+}
+.text-decaration-paragrph {
+    color: #64646A;
+    font-size: 24px;
+    font-family: Jost;
+    flex-direction: column;
+}
+
+.container-marketplace-heading{
+    margin-top: 100px;
+    margin-left: 60px;
+    color: #1B1B1D;
+    font-weight: 600;
+    font-size: 64px;
+    font-family: Jost;
+    margin-right: 100px;
+    width: 512px;
+}
+.marketplace-img{
+    margin-right: 100px;
+    margin-left: 120px;
+}
+.section-do-item-img1{
+    margin-right: 190px;
+}
+/* .section-do-item-img{
+    margin-bottom: 300px;
+    margin-right: 190px;
+    transform: rotate(-15deg);
+} */
+
+.section-order-btn1 {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    color: white;
+    background-color:#1B1B1D;
+    border-radius: 126px;
+}
+
+/* section-commits */
+.section-commits {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.section-client-list {
+    display: flex;
+    margin-right: 400px;
+}
+.section-description-1{
+    display: flex;
+    width: 504px;
+    flex-direction: column;
+    color: #1B1B1D;
+    font-size: 42px;
+    font-family: Jost;
+    font-weight: 600;
+    line-height: 70px;
+    margin-left: 30px;
+}
+
+.section-clients-item {
+    flex: 1 1 33.33%;
+    background-color: white;
+    outline: 3px solid white;
+    border-radius: 23px;
+}
+.section-clients-item:not(:last-child) {
+    margin-right: 35px;
+}
+.section-clients-user-description{
+    align-items: center;
+    text-decoration: column;
+    display: flex;
+    width: 320px;
+    flex-direction: column;
+    font-size: 20px;
+    font-family: Jost;
+    line-height: 30px;
+    margin-left: 40px;
+    margin-top: 32px;
+    margin-bottom: 40px;
+    margin-right: 42px;
+}
+.section-class-avatar-1{
+    width: 450px;
+    height: 344px;
+}
+.item-star {
+    margin-top: 5px;
+    width: 20px;
+    height: 20px;
+}    
+.section-class-avatar{
+    width: 560px;
+    height: 344px;
+}
+.section-client-username {
+    color: var(--accent, #1B1B1D);
+    font-size: 24px;
+    font-family: Jost;
+    font-weight: 600;
+    line-height: 30px;
+    margin-left: 40px;
+    margin-right: 16px;
+}
+.section-description-plus{
+    margin-bottom: 150px;
+    
+}
+.ball{
+    color: var(--accent, #1B1B1D);
+    font-size: 40px;
+    font-family: Jost;
+    font-weight: 600;
+    line-height: 40px;
+}
+.desc-star-item{
+    margin-left: 110px;
+    margin-top: -90px;
+
+}
+.item-ball{
+    margin-left: 40px;
+}
+.btn-item,
+.btn-item-1{
+    font-size: 15px;
+    line-height: 1;
+    padding: 15px 15px;
+    text-transform: uppercase;
+    color: white;
+    background-color: white;
+    border-radius: 6380px;
+    cursor: pointer;
+    margin-right: 30px;
+}
+.table{
+    margin-left: 40px;
+    margin-top: 100px;
+}
+
+.section-info{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.logo-1 {
+    width: 277px;
+    height: 92px;
+}
+.section-desc-h1 {
+    display: flex;
+    width: 558px;
+    flex-direction: column;
+    font-size: 30px;
+    font-family: Jost;
+    line-height: 40px;
+}
+.section-desc-h2{
+    color: #1B1B1D;
+    font-size: 40px;
+    font-family: Jost;
+    font-weight: 800;
+    line-height: 50px;
+}
+.section-desc-step-3 {
+    color: var(--accent, #1B1B1D);
+    font-size: 18px;
+    font-family: Jost;
+    font-weight: 600;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.btn-step-3 {
+    padding-top: 10px;
+}
+.container-section {
+    margin-left: 100px;
+}
+.section-info-list {
+    display: flex;
+}
+.section-info-items {
+    flex: 1 1 50%;
+}
+.new-table{
+    display: flex;
+    align-items
+}

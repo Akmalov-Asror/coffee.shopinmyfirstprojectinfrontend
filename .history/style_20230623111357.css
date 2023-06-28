@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+html{
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+img{
+    max-width: 100%;
+}
+.he
+.container{
+    max-width: 1200px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+.header .container {
+    display: flex;
+}
+.logo {
+    margin-right: auto;
+}
+.nav-list {
+    display: flex;
+}
+.nav-item:not(:last-child){
+    margin-right: 50px;
+}

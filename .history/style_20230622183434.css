@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+img {
+    max-width: 100;
+}
+html {
+    font-family: sans-serif;
+}
+.header
+.container {
+    max-width: 1240px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+}
+.logo{
+    margin-right: auto;
+}
+.nav-list{
+    display: flex;
+}
+.nav-list:not(:last-child){
+    margin-right: 100px;
+}
