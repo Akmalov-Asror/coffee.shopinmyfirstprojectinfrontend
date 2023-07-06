@@ -24,7 +24,9 @@ html{
 a {
     text-decoration: none;
 }
-
+.hero-content{
+    max-width: 50%;
+}
 ul{
     list-style: none;
     margin: 0;
@@ -257,8 +259,6 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;  
-    width: 100px;
-    padding-left: 40px;
 }
 .item-3{
     margin-left: 170px;
@@ -925,7 +925,7 @@ div{
 
 /* responsive */
 
-@media (max-width: 412px) {
+@media only screen and (max-width: 412px) {
     header{
         padding: 15px 40px;
     }
