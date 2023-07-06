@@ -189,9 +189,7 @@ img{
     padding-bottom: 130px;
     display: flex;
 }
-.hero-content {
-    max-width: 50%;
-}
+
 .section-hero-heading {
     font-family: Jost   ;
     margin-bottom: 20px;
@@ -259,6 +257,8 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;  
+    width: 100px;
+    padding-left: 40px;
 }
 .item-3{
     margin-left: 170px;
