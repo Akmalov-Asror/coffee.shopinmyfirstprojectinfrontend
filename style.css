@@ -986,6 +986,7 @@ div{
     }
     .section-order-heading{
         font-size: 76px;
+        width: 100%;
     }
     .section-do-item-img{
         margin-top: 60px;
@@ -1231,7 +1232,7 @@ div{
         align-items: center;
         display: flex;
         justify-content: center;
-        margin-left: -150px;
+        margin-left: 2  50px;
     }
     .section-class-avatar1,
     .section-class-avatar{
